@@ -32,33 +32,41 @@
   background-color: #ff4655;
   width: 250px;
 }
+
 /* info-game */
 #info-game {
   height: 150vh;
   background-color: #ECE8E1;
   padding-top: 80px;
 }
+
 .garis2 {
   height: 3px;
   margin-top: 30px;
   background-color: #cbcbcb;
 }
+
 .weare p {
   color: #768079;
 }
+
 .weare h3 {
   color: #383E3A;
 }
+
 .garis3 {
   background-color: #cbcbcb;
 }
+
 .dekor {
   color: #FF4654;
   -webkit-transform: scaleX(-1);
 }
+
 .gariss {
   background-color: #FF4654;
 }
+
 #info-game .row {
   padding-top: 50px;
 }
@@ -81,165 +89,208 @@
   position: relative;
 
 }
+
 /* weapon */
-#weapon .flickity-page-dots, #weapon .carousel .previous{
+#weapon .flickity-page-dots,
+#weapon .carousel .previous {
   display: none;
 }
-#weapon .carousel .next svg{
+
+#weapon .carousel .next svg {
   width: 30px;
   margin-left: 10px;
 }
-#weapon .carousel .next{
+
+#weapon .carousel .next {
   border-radius: 0 20px 0px 0;
   height: 150px;
   width: 100px;
   background-color: #FDFBFB;
   margin-right: -150px;
 }
+
 #weapon .carousel-cell {
   width: 28%;
   height: fit-content;
   margin-right: 80px;
 }
-.spectre h1{
+
+.spectre h1 {
   -webkit-text-stroke: 1px #DC3D4D;
 }
-.smgs h1{
+
+.smgs h1 {
   -webkit-text-stroke: 1px #ECE8E1;
 }
-.wp{   
+
+.wp {
   background-color: #DC3D4D;
   position: relative;
 }
-.wp .btn , .wp .skins button{
+
+.wp .btn,
+.wp .skins button {
   height: 80px;
   width: 500px;
   background-color: #FF4654;
 }
-.wp2{
+
+.wp2 {
   width: 80%;
   height: 700px;
   background-color: #ECE8E1;
   margin-left: 17%;
   position: relative;
 }
-.bck{
+
+.bck {
   width: 150px;
   height: 220px;
   background-color: #FF4654;
   margin-left: 30%;
 }
-.wp button h1{
+
+.wp button h1 {
   color: #ECE8E1;
 }
-.a-1{
- padding-top: 43px;
+
+.a-1 {
+  padding-top: 43px;
 }
-.a-1 span{
+
+.a-1 span {
   color: #9e9ea7;
 }
-.a-2{
+
+.a-2 {
   color: #7E7E7E;
 }
-.a-1 p, .a-1 span{
+
+.a-1 p,
+.a-1 span {
   font-size: 13px;
 }
-.spectre h1{
+
+.spectre h1 {
   color: #ECE8E1;
 }
-.smgs h1{
- 
+
+.smgs h1 {
+
   color: #DC3D4D;
   transform: rotate(90deg);
 }
-.skins{
+
+.skins {
   position: absolute;
   top: 520px;
   left: -300px;
 }
-.skin,.skin2{
+
+.skin,
+.skin2 {
   background-color: #343434
 }
-.skin2 img{
+
+.skin2 img {
   position: absolute;
   top: 20px;
   left: -30px;
 }
-.skin img{
+
+.skin img {
   position: absolute;
   top: 50px;
   left: -30px;
 }
-#weapon video{
+
+#weapon video {
   position: absolute;
   top: -90px;
   left: 1020px;
 }
-.review button{
+
+.review button {
   background-color: #ff4655;
 }
-.pick-weapon{
+
+.pick-weapon {
   background-color: #FDFBFB;
 }
-.bck2{
+
+.bck2 {
   background-color: #FF4654;
-}   
-.judul h3{
+}
+
+.judul h3 {
   color: #383E3A;
 }
-.judul p{
+
+.judul p {
   color: #768079;
 }
+
 /* event */
-#event .flickity-button{
+#event .flickity-button {
   display: none;
 }
+
 #event .carousel-cell {
-width: 100%;
-height: 500px;
-margin-right: 10px;
+  width: 100%;
+  height: 500px;
+  margin-right: 10px;
 }
-#event{
+
+#event {
   width: 100%;
   height: 1200px;
   background-color: #212932;
 }
+
 #event .container-fluid {
   position: relative;
   top: 300px;
 }
-#event ol{
+
+#event ol {
   width: 600px;
   position: relative;
   top: -730px;
   left: -100px;
-  
+
 }
-#event .flickity-page-dots .is-selected{
+
+#event .flickity-page-dots .is-selected {
   background-color: #ff4655;
   border: none;
 }
-#event .flickity-page-dots li{
+
+#event .flickity-page-dots li {
   border-radius: 0;
   background-color: transparent;
   border: 1px solid #cbcbcb;
   width: 100px;
   height: 10px;
 }
+
 #event h1 {
   color: #cbcbcb;
 }
+
 #event p {
   width: 170px;
 }
+
 #event .garis {
   background-color: #383E3A;
 }
+
 /* news */
 #news {
   background-color: #ECE8E1;
   height: 1500px;
 }
+
 .textkanan p {
   color: #8B978F;
   font-weight: bold;
@@ -260,6 +311,7 @@ margin-right: 10px;
   font-size: 90px;
   color: #0F1923;
 }
+
 /* agent */
 #agent .text {
   width: 400px;
@@ -275,6 +327,7 @@ margin-right: 10px;
 #agent button {
   background-color: #c4c4c4;
 }
+
 /* maps */
 #maps {
   height: 150vh;
@@ -282,28 +335,34 @@ margin-right: 10px;
   background-color: #ECE8E1;
 
 }
-#maps .carousel-indicators button{
-  height: 5px; 
-  width: 70px; 
+
+#maps .carousel-indicators button {
+  height: 5px;
+  width: 70px;
   border: 1px solid #383e3a;
 }
-#maps .carousel-control-prev-icon{
+
+#maps .carousel-control-prev-icon {
   background-color: #768079;
-  border-radius: 10px 0 0 10px ;
+  border-radius: 10px 0 0 10px;
 }
-#maps .carousel-control-next-icon{
+
+#maps .carousel-control-next-icon {
   background-color: #768079;
   border-radius: 0 10px 10px 0;
 }
-#maps .carousel-indicators .active{
+
+#maps .carousel-indicators .active {
   background-color: #ff4655;
   border: none;
 }
+
 #maps h4 {
   transform: rotate(-90deg);
   width: 20px;
   padding-top: 5px;
 }
+
 #maps .con {
   background-color: #8b978f;
 }
@@ -312,18 +371,21 @@ margin-right: 10px;
   width: 450px;
   background-color: #ECE8E1;
 }
+
 #maps .kotak {
   height: 7px;
   width: 70px;
   border: 1px solid #7e7e7e;
   border-radius: 5px;
 }
+
 /* donload game */
 .dg {
   width: 100vw;
   height: 60px;
   background-color: #343434;
 }
+
 /* footer */
 #footer {
   background-color: #292929;
